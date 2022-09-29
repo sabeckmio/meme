@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a class="checked_m" href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    
+
+    <div class="all">
+
+    <div class="explain_todays">
+      이윤 추구를 최우선 목표로 하는 일반 상업 영화와 달리 창작자의 의도가 중시되는 영화인 독립 영화를 추천해 주는 <오늘의 영화>
+    </div>
+
+      <div class="poster_todays">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20180306_274/1520300631041QOrJ2_JPEG/movie_image.jpg"> 
+                  <figcaption> 
+                    <h2>소공녀</h2>
+                    개봉: 2018.03.22
+                    감독: 전고운
+                    배우: 이솜, 안재홍 등
+
+                    <p>짐은 없어도,
+                     생각과 취향은 있어
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_79/132459487685424NMK_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>남매의 집</h2>
+                    개봉: -
+                    감독: 조성희
+                    배우: 박세종, 이다인 등
+                    <p>
+                    가난한 반 지하에 사는 오누이
+                    누군가 침입해 위협한다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20200525_18/15903972457946Q9Bc_JPEG/movie_image.jpg"> 
+                  <figcaption>
+                    <h2>야구소녀</h2>
+                    개봉: 2020.06.18
+                    감독: 최윤태
+                    배우: 이주영,이준혁 등
+
+                    <p>사람들이 내 미래를 어떻게 알아요?
+                      나도 모르는데.. 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20190805_121/1564969695835Iq9Qc_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>벌새</h2>
+                    개봉: 2019.08.29
+                    감독: 김보라
+                    배우: 박지후, 김새벽 등
+                    <p>
+                    나는 이 세계가
+                    궁금했다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170404_167/1491270123758tmyA9_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>나만없는집</h2>
+                    개봉: -
+                    감독: 김현정
+                    배우: 김민서, 박지후, 이미정, 천정락
+                    <p>
+                    1998년 봄,
+                    세영은 걸스카우트가 하고싶다
+                    하지만 예상치 못한 반대를 겪는다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article> 
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211115_129/16369435805447igof_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>나는조선사람입니다</h2>
+                    개봉: 2021.12.09
+                    감독: 김철민
+                    배우: 강종현, 김창오, 박금숙
+                    <p>
+                    자별받고 외면당한
+                    재일조선인
+                    오롯한 조선사람으로 살기위해..
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20120127_18/13276393097695pIA3_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>라루나</h2>
+                    개봉: -
+                    감독: 에린코 카사로사
+                    배우: 크리스타 쉐플러
+                    <p>
+                    아름다운 밤하늘과
+                    은은한 달빛..!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170609_243/14969778555363zWgJ_JPEG/movie_image.jpg?type=m203_290_2">               
+                  <figcaption>
+                    <h2>노후대책없다</h2>
+                    개봉: 2017.06.29
+                    감독: 이동우
+                    배우: 파인더스팟, 스컴레이드, 반린
+                    <p> 
+                    펑크란 무엇이고,
+                    펑크로서 살아가는 것은 무엇일까?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+              
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 cinema팀<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+
+</html>

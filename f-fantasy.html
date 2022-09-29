@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a class="checked_m"href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+   
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="f-romance.html">#로맨스</a></li>
+          <li><a href="f-thriller.html">#스릴러</a></li>
+          <li><a class="checked-g" href="foreign.html">#판타지</a></li>
+          <li><a href="f-horror.html">#공포</a></li>
+          <li><a href="f-sf.html">#SF</a></li>
+          <li><a href="f-animation.html">#애니메이션</a></li>
+          <li><a href="f-comedy.html">#코미디</a></li>
+          <li><a href="f-action.html">#액션</a></li>
+        </ul>
+      </div>
+
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="판타지_반지의제왕_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210311_228/1615424566975JRkQp_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>반지의 제왕: 왕의 귀환</h2>
+                    개봉: 2003.12.17
+                    감독: 피터 잭슨
+                    배우: 일라이저 우드, 숀 애스틴 등
+                    <p> 21세기 가장 위대한 판타지 걸작의 귀환!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220706_263/1657071698045SKrKH_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>토르: 러브 앤 썬더</h2>
+                    개봉: 2022.07.06
+                    감독: 타이카 와이티티
+                    배우: 크리스 햄스워스, 나탈리 포트만 등
+                    <p>
+                    "신을 죽이는 자, 신이 상대한다!"
+                    슈퍼 히어로 시절이여, 안녕!
+                    이너피스를 위해 자아 찾기 여정을 떠난 천둥의 신 ‘토르’
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220504_33/165164173504831gKe_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>닥터 스트레인지: 대혼돈의 멀티버스</h2>
+                    개봉: 2022.05.04
+                    감독: 샘 레이미
+                    배우: 베네딕트 컴버배치, 엘리자베스 올슨 등
+                    <p>
+                    지금껏 본 적 없는 마블의 극한 상상력!
+                    광기의 멀티버스가 깨어난다 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20180322_242/15216962441485x5Om_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>어벤져스: 인피니티 워</h2>
+                    개봉: 2018.04.25
+                    감독: 안소니 루소, 조 루소
+                    배우: 로버트 다우니 주니어, 조슈 브롤린 등
+                    <p>
+                    새로운 조합을 이룬 어벤져스,
+                    역대 최강 빌런 타노스에 맞서 세계의 운명이 걸린
+                    인피니티 스톤을 향한 무한 대결이 펼쳐진다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220324_173/1648105241678ygLXq_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>신비한 동물들과 덤블도어의 비밀</h2>
+                    개봉: 2022.04.13
+                    감독: 데이빗 예이츠
+                    배우: 에디 레드메인, 주드 로 등
+                    <p>
+                    가장 위험한 마법에 맞선, 세상을 구할 전쟁이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211026_97/1635213484861yCnwO_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>이터널스</h2>
+                    개봉: 2021.11.03
+                    감독: 클로이 자오
+                    배우: 안젤리나 졸리, 마동석 등
+                    <p>
+                    마블 스튜디오의 <이터널스>는 수 천년에 걸쳐 그 모습을 드러내지 않고 살아온 불멸의 히어로들이 <어벤져스: 엔드게임> 이후 인류의 가장 오래된 적 '데비안츠'에 맞서기 위해 다시 힘을 합치면서 벌어지는 이야기
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111222_51/1324534613712lpCK9_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>캐리비안의 해적 - 망자의 함</h2>
+                    개봉: 2006.07.06
+                    감독: 고어 버빈스키
+                    배우: 조니 뎁, 올랜도 블룸 등
+                    <p>
+                    블랙펄의 저주는 사라졌지만, 대신 그보다 더 끔찍한 재앙이 잭과 그의 선원들을 기다리고 있다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111222_283/1324482654059SfyzD_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>스타더스트</h2>
+                    개봉: 2007.08.15
+                    감독: 매튜 본
+                    배우: 찰리 콕스, 클레어 데인즈 등
+                    <p> 
+                    신비의 별을 둘러싼 마법의 판타지
+                    영원의 빛을 차지하기 위한 환상적인 모험이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>        
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_105/1324618951658ddrXX_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>나니아 연대기 - 캐스피언 왕자</h2>
+                    개봉: 2008.05.15
+                    감독: 앤드류 애덤슨
+                    배우: 벤 반스, 조지 헨리 등
+                    <p>
+                    나니아에서 현실의 세계로 돌아온 지 1년 후, 페벤시 남매들은 마법의 힘에 의해 다시 나니아의 세계로 들어간다. 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20140508_255/1399525025344LONlJ_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>말레피센트</h2>
+                    개봉: 2014.05.29
+                    감독: 로버트 스트롬버그
+                    배우: 안젤리나 졸리, 엘르 패닝 등
+                    <p> 
+                    가장 강력한 마법을 가진 숲의 수호자 말레피센트는 인간왕국과의 거대한 전쟁의 소용돌이 속에서 왕국을 다스리는 스테판 왕의 딸 ‘오로라 공주’의 세례식 날, 거부할 수 없는 치명적인 저주를 내리는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

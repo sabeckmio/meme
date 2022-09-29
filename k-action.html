@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="main.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a class="checked_m" href="korean.html">한국 영화</a></li>
+            <li><a href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="k-romance.html">#로맨스</a></li>
+          <li><a href="k-thriller.html">#스릴러</a></li>
+          <li><a href="k-fantasy.html">#판타지</a></li>
+          <li><a href="k-horror.html">#공포</a></li>
+          <li><a href="k-sf.html">#SF</a></li>
+          <li><a href="k-animation.html">#애니메이션</a></li>
+          <li><a href="k-comedy.html">#코미디</a></li>
+          <li><a class="checked-g" href="korean.html">#액션</a></li>
+        </ul>
+      </div>
+     
+      
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="액션_범죄도시_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170915_299/1505458505658vbKcN_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>범죄도시</h2>
+                    개봉: 2017.10.03
+                    감독: 강윤성
+                    배우: 마동석, 윤계상 등
+                    <p> 통쾌하고! 화끈하고! 살벌하게!
+                    나쁜 놈들 때려잡는 강력반 형사들의 ‘조폭소탕작전’이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20150713_74/14367488229802tA3J_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>암살</h2>
+                    개봉: 2015.07.22
+                    감독: 최동훈
+                    배우: 전지현, 이정재 등
+                    <p>
+                    1933년 조국이 사라진 시대
+                    친일파 암살작전을 둘러싼 이들의 예측할 수 없는 운명이 펼쳐진다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_67/1324619531349Xc7vj_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>아저씨</h2>
+                    개봉: 2010.08.04
+                    감독: 이정범
+                    배우: 원빈, 김새론 등
+                    <p>
+                    건드리지 말았어야 했다
+                    그런데 기억이 사라져 갈수록, 가슴 속에 각인된 추억들을 지우기 싫어지기만 하는데... 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220615_63/1655270906406BGdFF_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>마녀(魔女) Part2. The Other One</h2>
+                    개봉: 2022.06.15
+                    감독: 박훈정
+                    배우: 신시아, 박은빈 등
+                    <p>
+                    '자윤'이 사라진 뒤,
+                    모든 것의 시작,
+                    더욱 거대하고 강력해진 마녀가 온다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220516_144/1652665409592Chvey_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>범죄도시2</h2>
+                    개봉: 2017.10.03
+                    감독: 이상용
+                    배우: 마동석, 손석구 등
+                    <p>
+                    가리봉동 소탕작전 후 4년 뒤,
+                    ‘마석도’와 금천서 강력반은 한국과 베트남을 오가며 역대급 범죄를 저지르는 ‘강해상’을 본격적으로 쫓기 시작하는데...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20180710_211/1531198746645nsdKN_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>마녀</h2>
+                    개봉: 2018.06.27
+                    감독: 박훈정
+                    배우: 김다미, 조민수 등
+                    <p>
+                    10년 전 의문의 사고가 일어난 시설에서
+                    홀로 탈출한 후 모든 기억을 잃은 ‘자윤’
+                    그들이 나타난 후 모든 것이 바뀌었다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20200706_191/1594001490577tifkl_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>다만 악에서 구하소서</h2>
+                    개봉: 2020.08.05
+                    감독: 홍원찬
+                    배우: 황정민, 이정재 등
+                    <p>
+                    처절한 암살자 VS 무자비한 추격자
+
+                    멈출 수 없는 두 남자의 지독한 추격이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20140721_186/1405911310756Tt2X1_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>명량</h2>
+                    개봉: 2014.07.30
+                    감독: 김한민
+                    배우: 최민식, 류승룡 등
+                    <p> 
+                    12척의 조선 vs 330척의 왜군
+
+                    역사를 바꾼 위대한 전쟁이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>         
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220727_209/1658912961873lVd2W_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>한산: 용의 출현</h2>
+                    개봉: 2014.07.30
+                    감독: 김한민
+                    배우: 최민식, 류승룡 등
+                    <p>
+                    1592년 여름, 음력 7월 8일 한산도 앞바다,
+                    압도적인 승리가 필요한 조선의 운명을 건 지상 최고의 해전이 펼쳐진다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211222_130/1640135864950wrGkx_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>특송</h2>
+                    개봉: 2022.01.12
+                    감독: 박대민
+                    배우: 박소담, 송새벽 등
+                    <p> 
+                    NO브레이크! FULL엑셀!
+                    성공률 100% 특송 전문 드라이버가 온다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

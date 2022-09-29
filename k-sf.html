@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a class="checked_m" href="korean.html">한국 영화</a></li>
+            <li><a href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="k-romance.html">#로맨스</a></li>
+          <li><a href="k-thriller.html">#스릴러</a></li>
+          <li><a href="k-fantasy.html">#판타지</a></li>
+          <li><a href="k-horror.html">#공포</a></li>
+          <li><a class="checked-g" href="korean.html">#SF</a></li>
+          <li><a href="k-animation.html">#애니메이션</a></li>
+          <li><a href="k-comedy.html">#코미디</a></li>
+          <li><a href="k-action.html">#액션</a></li>
+        </ul>
+      </div>
+
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">  
+                <a href="SF_승리호_상세.html">            
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210115_74/1610678310372cJm01_PNG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>승리호</h2>
+                    개봉: 2021.02.05
+                    감독: 조성희
+                    배우: 송중기, 김태리 등
+                    <p> 
+                      2092년, 지구는 병들고 우주 위성궤도에 인류의 새로운 보금자리인 UTS가 만들어졌다...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20130610_131/1370829667952NUsHp_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>설국열차</h2>
+                    개봉: 2022.06.29
+                    감독: 박찬욱
+                    배우: 크리스 에반스, 송강호 등
+                    <p>
+                    새로운 빙하기, 그리고 설국 17년
+                    인류 마지막 생존지역 <설국열차>
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_82/1324641257061OKJu8_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>7광구</h2>
+                    개봉: 2011.08.04
+                    감독: 김지훈
+                    배우: 하지원, 안성기 등
+                    <p>
+                      제주도 남단, 7광구의 망망대해에 떠있는 석유 시추선 이클립스 호. 
+                    시추작업에 총력을 가하던 어느 날, 갑자기 본부와 통신이 끊기고, 이클립스 호에는 이상 기류가 흐르는데...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170123_132/1485160659795SfWgk_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>타이타닉</h2>
+                    개봉: 2017.02.22
+                    감독: 김준성
+                    배우: 고수, 설경구 등
+                    <p>
+                    범인도 단서도 오직 꿈 속에 있다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20120314_278/1331700801857CXvhT_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>인류멸망보고서</h2>
+                    개봉: 2012.04.11
+                    감독: 김지운, 임필성
+                    배우: 류승범, 송새벽 등
+                    <p>
+                    2012년, 준비하라! 멸망이 가까웠다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>  
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20180530_139/1527644339969WkMqB_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>인랑</h2>
+                    개봉: 2018.07.25
+                    감독: 김지운
+                    배우: 강동원, 한효주 등
+                    <p>
+                    절대 권력기관 간의 피비린내 나는 암투 사이, ‘특기대’ 내 비밀조직 ‘인랑’에 대한 소문이 떠도는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211124_295/1637731237327qXnoX_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>간호중</h2>
+                    개봉: 2021.12.02
+                    감독: 민규동
+                    배우: 이유영, 예수정 등
+                    <p>
+                    요양병원에서 10년째 식물인간으로 누워있는 어머니와 그 시간 동안 지칠 대로 지친 보호자. 그 둘을 모두 보살피던 간병로봇은 자신의 돌봄 대상 중 누구를 살려야 할지 고뇌에 빠진다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220328_103/1648449610850qpIRj_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>헝거</h2>
+                    개봉: 2022.04.21
+                    감독: 강다연
+                    배우: 김유나 등
+                    <p>
+                    라디오를 켜면 너를 만날 수 있을까?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>         
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210308_97/1615182990261ekXlL_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>서복</h2>
+                    개봉: 2021.04.15
+                    감독: 이용주
+                    배우: 공유, 박보검 등
+                    <p>
+                    인류 최초의 복제인간 ‘서복’
+                    그와의 특별한 동행이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210318_281/1616043863160Y4nwt_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>인천스텔라</h2>
+                    개봉: 2021.03.25
+                    감독: 백승기
+                    배우: 손이용, 강소연 등
+                    <p>
+                    “여기는 갬성(STARGAM). 지구로부터 아주 멀리 떨어져 있는 별입니다.”
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

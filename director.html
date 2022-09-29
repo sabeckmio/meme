@@ -1,0 +1,282 @@
+git<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop"> <!-- .header_pop {
+  position: relative;
+  top: 0;
+  width: 100%;
+} -->
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox"><!-- #check-btn{
+  display: none;
+} -->
+      <label for="check-btn">⨉</label>
+      <ul class="promo"><!-- .promo { display: block; } -->
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+ 
+
+
+<div class="all_without_header"><!-- .all_without_header {
+  position: relative;
+  top: 0;
+} -->
+  <div class="wrap_header"><!-- .wrap_header {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+} -->
+    <header class="header"><!-- .header{
+  position: relative;
+  width: 100%;
+  margin: 0;
+} -->
+      <div class="div_Top"><!-- div_Top {
+  position: absolute;
+  top: -8px;
+/*  background-color: #FFFFF1;
+  border: 1px solid gray;*/
+  width: 100%;
+  height: 160px;
+} -->
+
+        <!-- 상단 로고 -->
+        <nav class="header_logo"><!-- .header_logo {
+  position: absolute;
+  left: 320px;
+  top: 40px;
+} -->
+          <a href="index.html"><img src="로고.png" height="90px"></a>
+        </nav>  
+
+        <div class="search">
+          <input type="text" placeholder="영화 검색">
+          <button>검색</button>
+        </div>
+      </div>
+      <!-- .search {
+  position: relative;
+  float: right;
+  top: 60px;
+  right: 320px;
+  height: 40px;
+  width: 250px;
+  border: 1px solid #817674;
+  background-color: #ffffff;
+}
+
+.search input {
+  font-size: 17px;
+  width: 150px;
+  padding: 9px;
+  border: 0;
+  outline: none;
+}
+
+.search button {
+  width: 50px;
+  height: 100%;
+  border: 0;
+  background-color: #373634;
+  outline: none;
+  float: right;
+  color: #ffffff;
+} -->
+
+      <!-- 상단 메뉴바 -->
+      <nav class="topMenu"><!-- .topMenu {
+  position: absolute;
+  top: 153px;
+  width: 100%;
+} -->
+
+        <hr class="menuhr"><!-- .menuhr{
+  border: 0;
+  height: 3px;
+  background-color: #373634;
+} -->
+        <ul>
+          <li><a href="korean.html">한국 영화</a></li>
+          <li><a href="foreign.html">외국 영화</a></li>
+          <li><a class="checked_m" href="director.html">감독 소개</a></li>
+          <li><a href="today's.html">오늘의 영화</a></li>
+        </ul>
+        <hr>
+      </nav>
+    </header>
+  </div>
+
+  <div class="all">
+<!-- .all {
+  position: absolute;
+  top: 0px;
+  left: 320px;
+  width: 1280px;
+} -->
+    <div class="explain_director"><!-- .explain_director {
+  position: absolute;
+  top : 269px;
+  left: 390px;
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #d3d1c9;
+  border-radius: 10px;
+}
+    감독의 작품과 그 특징을 알려주는 <감독 소개> -->
+    </div>
+
+    <div class="directorlist_box1"><!-- .directorlist_box1{
+  position: relative;
+  top: 362px;
+  width: 1270px;
+  background: #d3d1c9;
+  border: 1px solid;
+  min-height: 240px;
+  margin-bottom: 45px;
+} -->
+
+      <img class ="directorlist_img" src="https://search.pstatic.net/common?type=b&size=216&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F30%2F201405092025014301.jpg">
+<!-- .directorlist_img{
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin: 20px;
+} -->
+      <table class ="directorlist_explain"><!-- .directorlist_explain{
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} -->
+        <tbody>
+          <tr>
+            <td>
+              <h3>박찬욱</h3><br>
+              <details>
+                <summary>작품활동</summary><br>
+                <ul>
+                  <li>친절한 금자씨</li>
+                  <li>설국열차</li>
+                  <li>헤어질 결심</li>
+                </ul>
+              </details><br>
+              <details>
+                <summary>작품특징</summary><br>
+                <ul>
+                  <li>극단적으로 과장된 감정과 냉정한 표현의 결합, 블래코미디와 아이러니, 표현주의적인 화면 구성, 금기의 위반, 잔혹한 폭력 묘사 등이 자주 발견-여기서 인간의 본성과 죄의식을 탐구</li>
+                  <li>특유의 미장센 사용-쇼트가 진행되는 공간의 외형을 상당히 신경</li>
+                </ul>
+              </details><br>
+              <details>
+                <summary>주요 수상경력</summary><br>
+                <ul>
+                  <li>제 26회 청룡영화상-최우수작품상(친절한 금자씨)</li>
+                  <li>제 75회 칸 영화제-감독상(헤어질 결심)</li>
+                </ul>
+              </details><br>
+              <details>
+                <summary>기타</summary><br>
+                <ul>
+                  <li>가장 중시하는 것은 외모(무조건 잘생기거나 예쁜 외모가 아닌 영화의 인물에 어울리는)</li>
+                  <li>2017년 제 70회 칸 영화제 경쟁부문 심사위원으로 위축</li>
+                </ul>
+              </details>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+    <div class="directorlist_box1">
+
+    <img class ="directorlist_img" src="https://search.pstatic.net/common?type=b&size=216&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F25%2F201411101802253101.jpg">
+
+    <table class ="directorlist_explain">
+      <tbody>
+        <tr>
+          <td>
+            <h3>크리스토퍼 놀란</h3><br>
+              <details>
+                <summary>작품활동</summary><br>
+                <ul>
+                  <li>다크나이트</li>
+                  <li>인셉션</li>
+                  <li>인터스텔라</li><br>
+                </ul>
+              </details><br>
+              <details>
+                <summary>작품특징</summary><br>
+                <ul>
+                  <li>기본적으로 현실주의에 근간을 둔 연출 방식을 선호하기 떄문에 사실성을 최대한 높이기 위한 연출이 많은편</li>
+                  <li>각본이나 연출의 면으로 보면 시간은 아주 중요한 모티브로 작용</li>
+                </ul>
+              </details><br>
+              <details>
+                <summary>주요 수상경력</summary><br>
+                <ul>
+                  <li>제 10회 맥스무비-최고의 영화상,최고의 감독상</li>
+                  <li>제 30회 시카고 비평가 협회상-감독상</li>
+                </ul>
+              </details><br>
+              <details>
+                <summary>기타</summary><br>
+                <ul>
+                  <li>대규모 블록버스터 영화를 만들면서 영화 제작에 전권을 행사할 수 있는 몇 안되는 감독</li>
+                  <li>다크 나이트를 만들 때 가장 영향을 준 작품들은 마이클 만의 영화와 <더 와이어>이다.</li>
+                </ul>
+              </details>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <br>
+
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="main.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a class="checked_m"href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a class="checked-g" href="foreign.html">#로맨스</a></li>
+          <li><a href="f-thriller.html">#스릴러</a></li>
+          <li><a href="f-fantasy.html">#판타지</a></li>
+          <li><a href="f-horror.html">#공포</a></li>
+          <li><a href="f-sf.html">#SF</a></li>
+          <li><a href="f-animation.html">#애니메이션</a></li>
+          <li><a href="f-comedy.html">#코미디</a></li>
+          <li><a href="f-action.html">#액션</a></li>
+        </ul>
+        </div>
+     
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="로맨스_타이타닉_상세.html">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000076/76198/76198_320.jpg"> 
+                  <figcaption>
+                    <h2>타이타닉</h2>
+                    개봉: 1998.02.20
+                    감독: 제임스 카메론
+                    배우: 레오나드로 디카프리오, 케이트 원슬렛 등
+                    <p>
+                    “내 인생의 가장 큰 행운은 도박에서 딴 티켓으로 당신을 만난 거야”
+                    단 하나의 운명, 단 한 번의 사랑, 영원으로 기억될 세기의 러브 스토리..........
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78783/78783_320.jpg"> 
+                  <figcaption> 
+                    <h2>말할 수 없는 비밀</h2>
+                    개봉: 2008.01.10
+                    감독: 주걸륜
+                    배우: 주걸륜, 계륜미 등 
+                    <p> 
+                    예술학교로 전학 온 '상륜'은 아버지의 영향을 받아 피아노에 천부적인 소질을 보인다.
+                    학교를 둘러보던 중, 옛 음악실에서 피아노를 치는
+                    '샤오위'를 만난다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20201229_146/1609226288425JgdsP_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>라라랜드</h2>
+                    개봉: 2016.12.07
+                    감독: 데이미언 셔젤
+                    배우: 라이언 고슬링, 엠마 스톤 등 
+                    <p>
+                    황홀한 사랑, 순수한 희망, 격렬한 열정…
+                    이 곳에서 모든 감정이 폭발한다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78586/78586_320.jpg"> 
+                    <figcaption>
+                    <h2>이터널 선샤인</h2>
+                    개봉: 2005.11.10
+                    감독: 미셸 공드리
+                    배우: 짐 캐리, 케이트 윈슬렛 등 
+                    <p>
+                    사랑은 그렇게 다시 기억된다..
+                    '조엘'은 아픈 기억만을 지워준다는 라쿠나사를 찾아가 헤어진 연인 '클레멘타인'의 기억을 지우기로 결심한다.
+                    그런데 기억이 사라져 갈수록, 가슴 속에 각인된 추억들을 지우기 싫어지기만 하는데... 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77772/77772_320.jpg"> 
+                  <figcaption>
+                    <h2>비긴어게인</h2>
+                    개봉: 2014.08.13
+                    감독: 존 카니
+                    배우: 키아라 나이틀리, 마크 러팔로 등 
+                    <p>
+                    싱어송라이터인 ‘그레타’는 남자친구 ‘데이브’가 메이저 음반회사와 계약을 하게 되면서 뉴욕으로 오게 된다.
+                    그러나 행복도 잠시,
+                    스타가 된 '데이브'의 마음은 어느새 변해버린다.........
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000080/80096/80096_320.jpg"> 
+                  <figcaption>     
+                    <h2>원스</h2>
+                    개봉: 2007.09.20
+                    감독: 존 카니
+                    배우: 글렌 한사드, 마르케타 이글로바 등 
+                    <p>
+                    이제 사랑은 더 이상 없을 거라고 믿었던 ‘그’
+                    삶을 위해 꿈을 포기했던 ‘그녀’
+                    더블린의 밤거리에서 마법처럼 시작된 만남.........
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77305/77305_320.jpg"> 
+                  <figcaption>
+                    <h2>어바웃 타임</h2>
+                    개봉: 2013.12.05
+                    감독: 리차드 커티스
+                    배우: 도널 글리슨, 레이첼 맥아담스
+                    <p>
+                    모태솔로 '팀'은 성인이 된 날, 아버지로부터 놀랄만한 가문의 비밀을 듣게 된다.
+                    바로 시간을 되돌릴 수 있는 능력이 있다는 것!....<br>
+                    그것이 그에게 여자친구는 만들어줄 수 있으리라...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20161124_209/1479966118269WuVYF_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>사운드 오브 뮤직</h2>
+                    개봉: 1969.10.29
+                    감독: 로버트 와이즈
+                    배우: 줄리 앤드류스, 크리스토퍼 플러머 등
+                    <p> 
+                    알프스에서 들려오는 환상의 하모니!
+                    세상에서 가장 사랑스러운 합창이 시작된다! 다 함께 도-레-미~♪♬
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>      
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77891/77891_320.jpg"> 
+                  <figcaption>
+                    <h2>러브로지</h2>
+                    개봉: 2014.12.10
+                    감독: 크리스티안 디터
+                    배우: 릴리 콜린스, 샘 클래플린
+                    <p>
+                    소꿉친구인 '알렉스'와 '로지'
+                    몇 년 후, 보고 싶다는 알렉스의 연락을 받은 로지는 다시 한번 희망을 품고 보스톤으로 향하지만 이미 알렉스의 옆에는 다른 여자가 서있는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220627_271/1656311564441PQ0Jn_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>썸머 필름을 타고!</h2>
+                    개봉: 2022.07.20
+                    감독: 마츠모토 소우시
+                    배우: 이토 마리카, 카네코 다이치 
+                    <p> 
+                     우연히 극장에서 만난 미래에서 온 의문의 소년 ‘린타로’를 주인공으로 전격 캐스팅한 ‘맨발’은 꿈에 그리던 촬영을 시작하지만 예상치 못한 문제가 터지는데…
+                   </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

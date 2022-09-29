@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+<div class="all_without_header">
+  <div class="wrap_header">
+    <header class="header">
+      <div class="div_Top">
+
+        <!-- 상단 로고 -->
+        <nav class="header_logo">
+          <a href="index.html"><img src="로고.png" height="90px"></a>
+        </nav>  
+
+        <div class="search">
+          <input type="text" placeholder="영화 검색">
+          <button>검색</button>
+        </div>
+      </div>
+
+      <!-- 상단 메뉴바 -->
+      <nav class="topMenu">
+        <hr class="menuhr">
+        <ul>
+          <li><a href="korean.html">한국 영화</a></li>
+          <li><a href="foreign.html">외국 영화</a></li>
+          <li><a href="director.html">감독 소개</a></li>
+          <li><a href="today's.html">오늘의 영화</a></li>
+        </ul>
+        <hr>
+      </nav>
+    </header>
+  </div>
+
+
+
+
+
+
+  <div class="slide_all">
+    <div class="slidebox">
+      <input type="radio" name="slide" id="slide01" checked>
+      <input type="radio" name="slide" id="slide02">
+      <input type="radio" name="slide" id="slide03">
+      <input type="radio" name="slide" id="slide04">
+      <ul class="slidelist">
+        <li class="slideitem">
+          <div>
+            <div class="today_slide">
+              <div class="today_poster">
+                <a href="#">
+                  <img src="https://movie-phinf.pstatic.net/20180306_274/1520300631041QOrJ2_JPEG/movie_image.jpg?type=m203_290_2">
+                </a>
+              </div>
+              <div class="today_detail"><h3>소공녀</h3>
+                개봉: 2018.03.22
+                감독: 전고운
+                배우: 이솜, 안재홍 등
+
+                "집은 없어도, 생각과 취향은 있어!"
+                하루 한 잔의 위스키와 한 모금의 담배 그리고 사랑하는 남자친구만 있다면 더 바라는 것이 없는 3년 차 프로 가사도우미 ‘미소’.
+               
+                새해가 되자 집세도 오르고 담배와 위스키 가격마저 올랐지만 일당은 여전히 그대로다.
+                좋아하는 것들이 비싸지는 세상에서 포기한 건 단 하나, 바로 ‘집’.
+               
+                집만 없을 뿐 일도 사랑도 자신만의 방식대로 살아가는
+                사랑스러운 현대판 소공녀 ‘미소’의 도시 하루살이가 시작된다!
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="slideitem">
+          <div>
+            <div class="today_slide">
+              <div class="today_poster">
+                <a href="#">
+                  <img src="https://movie-phinf.pstatic.net/20200525_18/15903972457946Q9Bc_JPEG/movie_image.jpg?type=m203_290_2">
+                </a>
+              </div>
+              <div class="today_detail"><h3>야구소녀</h3>
+                개봉: 2020.06.18
+                감독: 최윤태
+                배우: 이주영, 이준혁 등
+
+                “사람들이 내 미래를 어떻게 알아요? 나도 모르는데…”
+
+                고교 야구팀의 유일한 여자이자 최고구속 134km, 볼 회전력의 강점으로 ‘천재 야구소녀’라는 별명을 얻으며 주목받았던 야구선수 ‘주수인’(이주영). 고교 졸업 후 오로지 프로팀에 입단해 계속해서 야구를 하는 것이 꿈이지만 여자라는 이유로 제대로 된 평가도 기회도 잡지 못한다.
+                엄마, 친구, 감독까지 모두가 꿈을 포기하라고 할 때, 야구부에 새로운 코치 ‘진태’(이준혁)가 부임하고 수인에게도 큰 변화가 찾아오는데…
+
+                “전 해보지도 않고 포기 안 해요”
+                꿈을 향해 던지는 단 하나의 스트라이크
+              </div>
+            </div>
+          </div>                
+        </li>
+        <li class="slideitem">
+          <div>
+            <div class="today_slide">
+              <div class="today_poster">
+                <a href="#">
+                  <img src="https://movie-phinf.pstatic.net/20190805_121/1564969695835Iq9Qc_JPEG/movie_image.jpg?type=m203_290_2">
+                </a>
+              </div>
+              <div class="today_detail"><h3>벌새</h3>
+                개봉: 2019.08.29
+                감독: 김보라
+                배우: 박지후, 김새벽 등
+
+                나는 이 세계가 궁금했다
+
+                1994년, 알 수 없는 거대한 세계와 마주한 14살 ‘은희’의 아주- 보편적이고 가장- 찬란한 기억의 이야기
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="slideitem">
+          <div>
+            <div class="today_slide">
+              <div class="today_poster">
+                <a href="#">
+                  <img src="https://movie-phinf.pstatic.net/20120127_18/13276393097695pIA3_JPEG/movie_image.jpg?type=m203_290_2">
+                </a>
+              </div>
+              <div class="today_detail"><h3>라 루나</h3>
+                개봉: 2011.06.06
+                감독: 에린코 카사로시
+                배우: 크리스타 쉐플러
+
+                아름다운 밤하늘과
+                은은한 달빛..!
+              </div>
+            </div>
+          </div>                
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+      <div class="all_main">
+        <div class="poster_main">
+          <div id="wrap_main">
+
+            <div id="main_rom">
+              <ul class="main_ul">
+                <li><a class="checked_m_g" href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                사랑을 주제로 한다. 이 장르에서 다루는 사랑은 가벼운 분위기에서부터 심각한 관계까지 매우 범위가 넓다. 때때로 역사적인 사건이나 전쟁이 배경이 되기도하는데, 이에 해당하는 영화는 보는 관점에 따라 다른 장르로 분류되기도 한다.
+              </div>
+
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="로맨스_헤어질 결심_상세.html">
+                            <img class="myimage_main" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85852/85852_320.jpg">
+                            <figcaption> 
+                              <h2>헤어질 결심</h2>
+                              개봉: 2022.6.29
+                              감독: 박찬욱
+                              배우: 박해일, 탕웨이 등
+                              <p>
+                                진심을 숨기는 용의자
+
+                                용의자에게 의심과 관심을 
+                                동시에 느끼는 형사
+
+                                그들의 <헤어질 결심>....
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="로맨스_타이타닉_상세.html">
+                            <img class="myimage_main" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000076/76198/76198_320.jpg">
+                            <figcaption>
+                              <h2>타이타닉</h2>
+                              개봉: 1998.2.20 
+                              감독: 제임스 카메론
+                              배우: 레오나드로 디카프리오,
+                              케이트 윈슬렛 등
+                              <p>
+                                “내 인생의 가장 큰 행운은 도박에서 딴 티켓으로 당신을 만난 거야”
+
+                                단 하나의 운명, 단 한 번의 사랑, 영원으로 기억될 세기의 러브 스토리 
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83230/83230_320.jpg">
+                            <figcaption>
+                              <h2>로마의 휴일</h2>
+                              개봉: 1955.09.30
+                              감독: 윌리엄 와일러
+                              배우: 그레고리 펙, 오드리 햅번 등
+                              <p>
+                                말괄량이 공주와
+                                특종만을 노리는 기자의
+                                사랑이야기....
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+                  
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-romance.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-romance.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div> 
+
+            <br><br>
+           
+            <div id="main_thr">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a class="checked_m_g" href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                  보는 사람들로 하여금 긴장감을 일으키는 장르
+              </div>
+
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="스릴러_추격자_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20111223_156/1324566721937R1fPE_JPEG/movie_image.jpg?type=m203_290_2"><
+                            <figcaption> 
+                              <h2>추격자</h2>
+                              개봉 : 2008.02.14
+                              감독 : 나홍진
+                              배우 : 김윤석, 하정우 등
+                              <p> 
+                                그날밤 놈을 쫓던 단 한 명의 (추격자)
+                                놈을 잡은 건 경찰도 검찰도 아니었다
+
+                                대한민국을 뒤흔든 희대의 살인마
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="스릴러_블랙스완_상세.html">
+                            <img class="myimage_main" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000082/82928/82928_320.jpg">
+                            <figcaption>
+                              <h2>블랙 스완</h2>
+                              개봉: 2011.02.24
+                              감독: 대런 아로노프스키
+                              배우: 나탈리 포트만, 뱅상 카셀 등
+                              <p> 
+                                흑조를 탐한 백조의 핏빛
+                                도발이 다시 시작된다!
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+                  
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/cfile/116F1B10AB025E93FA">
+                            <figcaption>    
+                              <h2>살인의 추억</h2>
+                              개봉: 2003.04.25
+                              감독: 봉준호
+                              배우: 송강호, 김상경셀 등
+                              <p>
+                                어둡고 긴 미스터리…
+                                미궁 속 10번째 부녀자 연쇄피살,
+                                공포 언제까지...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+                  
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-thriller.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-thriller.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div id="main_fan">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a class="checked_m_g" href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                현실 세계와는 동떨어진 신화적, 동화적인 이야기를 바탕으로 한 장르
+              </div>
+
+                    
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="판타지_전우치_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20111223_249/1324598282916rToPJ_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>전우치</h2>
+                              개봉: 2009.12.23
+                              감독: 최동훈
+                              배우: 강동원, 김윤석 등
+                              <p> 
+                                예술500년 전 조선시대
+                                그리고 요괴 잡는 도사도
+                                어느덧 전설이 된
+                                2009년 서울...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="판타지_반지의제왕_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20210311_228/1615424566975JRkQp_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>반지의 제왕: 왕의 귀환</h2>
+                              개봉: 2003.12.17
+                              감독: 피터 잭슨
+                              배우: 일라이저 우드, 숀 애스틴 등                       
+                              <p>  
+                                21세기 가장 위대한 
+                                판타지 걸작의 귀환...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/movie/458f8225fad14737b0f3a3e5630017e41539926699146">
+                            <figcaption>
+                              <h2>해리포터와 마법사의 돌</h2>
+                              개봉: 2001.12.14
+                              감독: 크리스 콜럼버스
+                              배우: 다니엘 래클리프, 엠마 왓슨 등
+                              <p>
+                                11살 고아 소년 해리포터,
+                                올해 생일엔 뭔가 특별한 일이?
+                                가자, 마법의 세계로!...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-fantasy.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-fantasy.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div id="main_hor">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a class="checked_m_g" href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                의도적으로 공포심을 건드려 쾌감을 유도하는 장르
+              </div>
+               
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="호러_곤지암_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20180406_37/1522991036857QqP7N_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>곤지암</h2>
+                              개봉: 2018.03.28
+                              감독: 정범식
+                              배우: 위하준, 박지현 등
+                              <p> 
+                                공포 체험의 성지
+                                '곤지암 정신병원'
+
+                                가지 말라는 곳에는
+                                반드시 이유가 있다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="호러_링_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20111216_7/1324027921575JqRFV_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>링</h2>
+                              개봉: 1999.12.11
+                              감독: 나가타 히데오
+                              배우 : 마츠시마 나나코,
+                              나카타니 미키 등
+                              <p>
+                                비디오를 보면
+                                일주일 안에 죽는다.
+
+                                하지만 죽지 않고 살아남게 되는데...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/cfile/11630D1B4A3614DC64">
+                            <figcaption>
+                              <h2>여고괴담</h2>
+                              개봉: 1998.05.30
+                              감독: 박기형
+                              배우: 이미연, 김규리 등 
+                              <p>
+                                생기발랄한 여고 교정,
+                                그 곳에서 벌어지는 의문의 사건들... 
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-horror.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-horror.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div id="main_sf">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a class="checked_m_g" href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                과학적 사실이나 이론을 바탕으로 한 이야기를 담은 장르
+              </div>
+              
+
+                    
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="SF_승리호_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20210115_74/1610678310372cJm01_PNG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>승리호</h2>
+                              개봉: 2021.02.05
+                              감독: 조성희
+                              배우: 송중기, 김태리 등
+                              <p> 
+                                2092년, 지구는 병들고
+                                우주 위성궤도에
+                                인류의 새로운 보금자리인
+                                UTS가 만들어졌다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="SF_매트릭스_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20211210_72/1639104921350Pk5gh_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>매트릭스</h2>
+                              개봉: 1999.05.15
+                              감독: 릴리 워쇼스키, 라나 워쇼스키
+                              배우: 키아누 리브스, 로렌스 피시번 등
+                              <p> 
+                                서기 2199년, 
+                                인공지능 AI에 의해 
+                                인류가 재배되고 있다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/movie/7b4dd01f05e74ec79136e419f674196d1578962830150">
+                            <figcaption>
+                              <h2>인셉션</h2>
+                              개봉: 2010.07.21
+                              감독: 크리스토퍼 놀란
+                              배우: 레오나르도 디카프리오, 
+                              조셉 고든 레 등
+                              <p>
+                                꿈 vs 현실
+
+                                시간, 규칙, 타이밍 
+                                모든 것이 완벽해야만 하는 
+                                '인셉션' 작전이 시작된다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-sf.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-sf.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div id="main_com">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a class="checked_m_g" href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                웃기기 위해서 유머에 중점을 둔 장르
+              </div>
+
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="코미디_극한직업_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20190116_206/1547615429111dINWj_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>극한직업</h2>
+                              개봉: 2019.01.23
+                              감독: 이병헌
+                              배우 : 류승룡, 이하늬 등                          
+                              <p> 
+                                예술학교로 전학 온 '상륜'은 
+                                아버지의 영향을 받아 
+                                피아노에 천부적인 소질을 보인다.
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="코미디_세얼간이_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20161005_215/1475647328961ETC6k_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>세 얼간이</h2>
+                              개봉: 2011.08.18
+                              감독: 라지쿠마르 히라니
+                              배우: 아미르 칸, 마드하반 등                       
+                              <p>  
+                                삐딱한 천재들의 
+                                진정한 꿈을 찾기 위한 
+                                세상 뒤집기 한 판이 시작된다...  
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/cfile/11219C10FEBF0DEF31">
+                            <figcaption>
+                              <h2>덤 앤 더머</h2>
+                              개봉: 1994.12.17
+                              감독: 피터 패럴리
+                              배우: 짐 캐리, 제프 다니엘스 등
+                              <p>
+                                서로 배신했다면서 싸우던 두 사람은 
+                                다시 우정을 약속하고 
+                                또 다른 기회가 오기를 기대하며 
+                                길을 떠난다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-comedy.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-comedy.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </thead>
+            </table>
+
+            <br><br>
+
+            <div id="main_ani">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a class="checked_m_g" href="#main_ani">애니메이션</a></li>
+                <li><a href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                만화와 그림과 같이 정적인 매체에 목소리와 역동성, 배경음을 넣는 예술 분야, 또는 그 분야를 이용해서 촬영한 영화
+              </div>
+
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="애니_마당을 나온 암탉_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20111223_113/1324639306448L7EXF_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>마당을 나온 암탉</h2>
+                              개봉: 2011.07.28
+                              감독: 오성윤
+                              배우: 문소리, 유승호 등
+                              <p> 
+                                양계장을 탈출한 겁 없는 암탉과
+                                철부지 청둥오리의 
+                                기막힌 만남!
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="애니_겨울왕국_상세.html">
+                            <img class="myimage_main"  src="https://movie-phinf.pstatic.net/20170418_82/1492496178995pHxdA_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>겨울왕국</h2>
+                              개봉: 2014.01.16
+                              감독: 크리스 벅, 제니퍼 리
+                              배우: 크리스틴 벨, 이디나 멘젤 등                      
+                              <p> 
+                                얼어붙은 세상을 녹일 자매가 온다... 
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/cfile/212761465464A23714">
+                            <figcaption>
+                              <h2>하울의 움직이는 성</h2>
+                              개봉: 2004.12.23
+                              감독: 미야자키 하야오
+                              배우: 바이쇼 치에코, 기무라 타쿠야 등
+                              <p>
+                                소녀가 마법에 걸린 순간, 
+                                꽃미남 마법사의 성문이 열렸다!... 
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-animation.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-animation.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div id="main_act">
+              <ul class="main_ul">
+                <li><a href="#main_rom">로맨스</a></li>
+                <li><a href="#main_thr">스릴러</a></li>
+                <li><a href="#main_fan">판타지</a></li>
+                <li><a href="#main_hor">호러</a></li>
+                <li><a href="#main_sf">SF</a></li>
+                <li><a href="#main_com">코미디</a></li>
+                <li><a href="#main_ani">애니메이션</a></li>
+                <li><a class="checked_m_g" href="#main_act">액션</a></li>
+              </ul>
+
+              <div class="m_g_explain">
+                싸움을 소재로 삼는 표현물의 장르
+              </div>
+
+              <table>
+                <tbody>
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="액션_범죄도시_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20170915_299/1505458505658vbKcN_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption> 
+                              <h2>범죄도시</h2>
+                              개봉: 2017.10.03
+                              감독: 강윤성
+                              배우: 마동석, 윤계상 등
+                              <p> 
+                                나쁜 놈들 때려잡는 강력반 형사들의 
+                                '조폭소탕작전'이 시작된다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="액션_다크나이트_상세.html">
+                            <img class="myimage_main" src="https://movie-phinf.pstatic.net/20200622_64/15927889581932gf40_JPEG/movie_image.jpg?type=m203_290_2">
+                            <figcaption>
+                              <h2>다크나이트</h2>
+                              개봉: 2008.08.06
+                              감독: 크리스토퍼 놀란
+                              배우: 크리스찬 베일, 히스 레저 등                      
+                              <p>  
+                                어둠의 기사 배트맨과 
+                                절대 악 조커의 
+                                운명을 건 최후의 결전이 시작된다... 
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>
+
+                  <td width="340">
+                    <article>
+                      <figure>
+                        <div class="information">
+                          <a href="#">
+                            <img class="myimage_main" src="http://t1.daumcdn.net/movie/dd84b905224c91225aa2a15203aba3a354197c1d">
+                            <figcaption>
+                              <h2>어벤져스:인피니티 워</h2>
+                              개봉: 2018.04.25
+                              감독: 앤서니 루소, 조 루스
+                              배우: 로버트 다우니 주니어, 
+                              크리스 에반스 등
+                              <p>
+                                새로운 조합의 어벤져스, 
+                                역대 최강 빌런 타노스에 맞서 
+                                무한 대결이 펼쳐진다...
+                              </p>
+                            </figcaption>
+                          </a>
+                        </div>
+                      </figure>
+                    </article>
+                  </td>  
+
+                  <td width="340">
+                    <body link="black" vlink="black" alink="navy">
+                      <a class="more" href="k-action.html" style="text-decoration: none;" target="_blank">한국 영화 더보기</a>
+                      <a class="more" href="f-action.html" style="text-decoration: none;" target="_blank">외국 영화 더보기</a>
+                    </body>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="main_footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

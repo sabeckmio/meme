@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all_infor">
+      <section class="MovieInfor_basic">
+        <table> 
+          <tbody>
+          <tr>
+          <td width="300"><img class ="MovieInfor_imag" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000076/76215/76215_320.jpg"></td>
+          <td><h2>건축학개론</h2>
+          <h4>개봉 : 2012.03.22<br>
+          장르 : 로맨스/멜로<br>
+          감독 : 이용주<br>
+          배우 : 한가인, 엄태웅, 수지, 이제훈..<br>
+          12세 / 117분 / 한국</h4>
+          <h3>> 줄거리</h3>생기 넘치지만 숫기 없던 스무 살, 건축학과 승민은 '건축학개론' 수업에서 처음 만난 음대생 서연에게 반한다. 함께 숙제를 하게 되면서 차츰 마음을 열고 친해지지만, 자신의 마음을 표현하는 데 서툰 순진한 승민은 입 밖에 낼 수 없었던 고백을 마음 속에 품은 채 작은 오해로 인해 서연과 멀어지게 된다. 어쩌면 다시…사랑할 수 있을까? 15년 만에 그녀를 다시 만났다 서른 다섯의 건축가가 된 승민 앞에 15년 만에 불쑥 나타난 서연. 당황스러움을 감추지 못하는 승민에게 서연은 자신을 위한 집을 설계해달라고 한다. 자신의 이름을 건 첫 작품으로 서연의 집을 짓게 된 승민, 함께 집을 완성해 가는 동안 어쩌면 사랑이었을지 모를 그때의 기억이 되살아나 두 사람 사이에 새로운 감정이 쌓이기 시작하는데…</td></tr></tbody></table> 
+      </section>
+
+      <article class="movieInfor_article">
+        <a href="#review" style="text-decoration: none;">
+        <box class="movieInfor_go_bt" style="color: #fff;">의견<br>공유<br>하기</box></a>
+
+        <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1821958&qvt=0&query=%EC%98%81%ED%99%94%20%EA%B1%B4%EC%B6%95%ED%95%99%EA%B0%9C%EB%A1%A0%20%EB%B3%B4%EB%9F%AC%EA%B0%80%EA%B8%B0" style="text-decoration: none;">
+        <box class="movieInfor_go_bt" style="color: #fff;">영화<br>보러<br>가기</box></a>
+      </article>
+
+      <section class="movieInfor_story">
+        <h2 align="center">영화 story </h2><hr>
+        
+      </section> 
+
+      <section class="movieInfor_commu">
+        <h2 align="center" id="review"> 영화 review </h2><hr>
+
+        <ul class="movieInfor_review" id="postit">
+
+        <li class="movieInfor_review_li">
+          <p  style="color: #ffffff">건축학개론을 보고#1</p></a></li>
+        <li class="movieInfor_review_li">
+          <p  style="color: #ffffff">건축학개론을 보고#2</p></a></li>
+
+        <li class="movieInfor_review_li">
+          <textarea cols="27" rows="11" style="margin-left: 3px; margin-top: 1px; resize: none;">자유롭게 작성해주세요.</textarea>
+          <input type="button" id="add_button" value="저장"
+          style="width:40px; height: 25px; top:215px; right: 13px;"></a></li>
+
+        <li class="movieInfor_review_li">
+          <input type="image" src="https://postfiles.pstatic.net/MjAyMjA3MzBfNjIg/MDAxNjU5MTU0MTIyNDM3.WZWLI0QhqMhheI9tjQDjbrKTwK8F8RODeHyAEZRR_Qsg.j5LwdQDiMXDVu3Zxh-ZdO7QwFcvDaRVDeNj2dKRY-xcg.PNG.rinaanni/%EC%98%81%ED%99%94%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.png?type=w580"
+          style="width: 150px; height: 200px; top: 20px; left: 63px" ></li>
+
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="main_footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 cinema<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

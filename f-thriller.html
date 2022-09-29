@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a class="checked_m"href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="f-romance.html">#로맨스</a></li>
+          <li><a class="checked-g" href="foreign.html">#스릴러</a></li>
+          <li><a href="f-fantasy.html">#판타지</a></li>
+          <li><a href="f-horror.html">#공포</a></li>
+          <li><a href="f-sf.html">#SF</a></li>
+          <li><a href="f-animation.html">#애니메이션</a></li>
+          <li><a href="f-comedy.html">#코미디</a></li>
+          <li><a href="f-action.html">#액션</a></li>
+        </ul>
+        </div>
+
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="스릴러_블랙스완_상세.html">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000082/82928/82928_320.jpg"> 
+                  <figcaption>
+                    <h2>블랙 스완</h2>
+                    개봉: 2011.02.24
+                    감독: 대런 아로노프스키
+                    배우: 나탈리 포트만, 뱅상 카셀 등
+                    <p> 
+                    흑조를 탐한 백조의 핏빛 도발이 다시 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>         
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77861/77861_320.jpg"> 
+                  <figcaption> 
+                    <h2>나를 찾아줘</h2>
+                    개봉: 2014.10.23
+                    감독: 데이빗 핀처
+                    배우: 벤 애플렉, 로자먼드 파이크 등
+                    <p>
+                    우리부부는 누구나 부러워하는 ‘완벽한 커플’이었다.
+                    그날, 아내가 사라지기 전까지…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78084/78084_320.jpg"> 
+                  <figcaption>
+                    <h2>나이트 크롤러</h2>
+                    개봉: 2015.02.26
+                    감독: 댄 길로이
+                    배우: 제이크 질렌할 등
+                    <p>
+                    특종을 위한 완벽한 조작!
+                    지금, 당신이 보고 있는 뉴스는 진실인가?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211221_176/1640055647361DAXCF_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>하우스 오브 구찌</h2>
+                    개봉: 2022.01.12
+                    감독: 리들리 스콧
+                    배우: 레이디 가가, 아담 드라이버 등
+                    <p>
+                    처음부터 사랑에 빠졌던 그 이름 구찌
+                    내 것이 될수록 더욱 갖고 싶었던 이름
+                    누구에게도 뺏길 수 없었던 그 이름
+                    구찌를 갖기 위해 구찌를 죽이기로 했다. 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000079/79028/79028_320.jpg"> 
+                  <figcaption>
+                    <h2>언더 워터</h2>
+                    개봉: 2016.07.13
+                    감독: 자움 콜렛 세라
+                    배우: 블레이크 라이블리 등
+                    <p>
+                    해변까지 200미터, 초속 11.3미터의 추격
+                    극한의 생존 게임이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000080/80290/80290_320.jpg"> 
+                  <figcaption>
+                    <h2>오리엔트 특급 살인</h2>
+                    개봉: 2017.11.29
+                    감독: 케네스 브래너
+                    배우: 케네스 브래너, 페넬로페 크루즈 등
+                    <p>
+                    포와로는 현장에 남겨진 단서와 용의자들의 증언을 토대로 미궁에 빠진 사건 속 진실을 찾기 위한 추리를 시작하게 되는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000079/79913/79913_320.jpg"> 
+                  <figcaption>     
+                    <h2>인비저블 게스트</h2>
+                    개봉: 2017.09.21
+                    감독: 오리올 파울로
+                    배우: 마리오 카사스, 바바라 레니 등
+                    <p>
+                    의문의 습격으로 살해 당한 ‘로라’
+                    ‘아드리안’은 연인의 죽음에 절망하고, 범인은 흔적도 없이 사라졌다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220428_212/1651136306796BymPp_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>더 컨트랙터</h2>
+                    개봉: 2022.04.28
+                    감독: 타릭 살레
+                    배우: 크리스 파인, 벤 포스터 등
+                    <p>
+                    국가를 위해 극비 작전에 뛰어든 남자
+                    미션 수행 도중 거대한 음모에 휘말리게 되고 충격과 위기를 겪게 되는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78825/78825_320.jpg"> 
+                  <figcaption>
+                    <h2>클로버필드 10번지</h2>
+                    개봉: 2016.04.07
+                    감독: 댄 트라첸버그
+                    배우: 메리 엘리자베스 윈스티드, 존 굿맨 등
+                    <p>
+                    이 집 밖에는 도대체 어떤 일이 일어난 것일까?
+                    하워드의 말대로 정말 세상은 살 수 없는 곳이 되어 버린 것일까?
+                    그 누구도, 그 무엇도 믿을 수 없다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220117_240/1642385234267zriPE_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>미결처리반 Q: 침묵의 암살자</h2>
+                    개봉: 2022.01.27
+                    감독: 마틴 잔드블리엣
+                    배우: 율리히 톰센 등
+                    <p> 
+                    조작된 채 종결된 4년 전 실종사건…
+                    유일한 목격자의 침묵에 숨겨진 진실이 밝혀진다!...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

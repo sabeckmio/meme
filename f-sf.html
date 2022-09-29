@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a class="checked_m"href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="f-romance.html">#로맨스</a></li>
+          <li><a href="f-thriller.html">#스릴러</a></li>
+          <li><a href="f-fantasy.html">#판타지</a></li>
+          <li><a href="f-horror.html">#공포</a></li>
+          <li><a class="checked-g" href="foreign.html">#SF</a></li>
+          <li><a href="f-animation.html">#애니메이션</a></li>
+          <li><a href="f-comedy.html">#코미디</a></li>
+          <li><a href="f-action.html">#액션</a></li>
+        </ul>
+        </div>
+
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="SF_매트릭스_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211210_72/1639104921350Pk5gh_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>매트릭스</h2>
+                    개봉: 1999.05.15
+                    감독: 릴리 워쇼스키, 라나 워쇼스키
+                    배우: 키아누 리브스, 로렌스 피시번 등 
+                    <p>
+                    서기 2199년,
+                    인공지능 AI에 의해 인류가 재배되고 있다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="SF_인터스텔라_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20160106_138/1452044846608eaFcJ_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>인터스텔라</h2>
+                    개봉: 2014.11.06
+                    감독: 크리스토퍼 놀란
+                    배우: 매튜 맥커너히, 앤해서웨이 등
+                    <p>
+                    “우린 답을 찾을 거야, 늘 그랬듯이”
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210915_104/1631681279096sdjNA_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>듄</h2>
+                    개봉: 2021.10.20
+                    감독: 드니 빌뇌브
+                    배우: 티모시 샬라메, 레베카 퍼거슨 등
+                    <p>
+                    “듄을 지배하는 자가 우주를 지배한다!” 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20200114_147/1578963901287frmdl_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>인셉션</h2>
+                    개봉: 2010.07.21
+                    감독: 크리스토퍼 놀란
+                    배우: 레오나르도 디카프리오, 와타베 켄 등
+                    <p>
+                    꿈 VS 현실
+                    시간, 규칙, 타이밍 모든 것이 완벽해야만 하는,
+                    단 한 번도 성공한 적 없는 ‘인셉션’ 작전이 시작된다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220511_81/1652250901166dWbrI_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>쥬라기 리턴즈</h2>
+                    개봉: 2022.05.04
+                    감독: 스콧 제프리, 레베카 매튜스
+                    배우: 데렉 넬슨, 메건 퍼비스 등
+                    <p>
+                    금기의 실험, 그 대가는 죽음이다
+                    깨워선 안 될 최강 살인 공룡들이 눈 뜬다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20150924_194/1443056454769VJKkL_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                   <h2>빽 투 더 퓨쳐</h2>
+                    개봉: 1987.07.17
+                    감독: 로버트 저메키스
+                    배우: 마이클 J.폭스, 크리스토퍼 로이드 등
+                    <p>
+                     평소 친하게 지내던 괴상한 발명가 에메트 브라운 박사가 스포츠카 드로리안을 개조해 타임머신을 만들지만, 뜻밖의 사고로 브라운 박사가 테러범들에게 총을 맞고 위험해진 마티는 급기야 30년 전으로 간다.
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20140616_233/1402884025598j42IR_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>엣지 오브 투모로우</h2>
+                    개봉: 2014.06.04
+                    감독: 더그 라이만
+                    배우: 톰 크루즈, 에밀리 블런트 등
+                    <p>
+                    그가 다시 그 끔찍한 날이 시작된 시간에 다시 깨어나 다시 전투에 참여하게 되고 다시 죽었다가 또 다시 살아나는 것.
+                    외계인과의 접촉으로 같은 시간대를 반복해서 겪게 되는 타임 루프에 갇히게 된 것이다...
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20211209_234/1639039550210iXjam_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>매트릭스: 리저렉션</h2>
+                    개봉: 2021.12.22
+                    감독: 라나 워쇼스키
+                    배우: 키아누 리브스, 캐리 앤 모스 등
+                    <p> 
+                    평범한 일상과 그 이면에 놓여 있는 또 다른 세계,
+                    두 개의 현실이 존재하는 세상에서 운명처럼 인류를 위해 다시 깨어난 구원자 네오.
+                    빨간 약과 파란 약 중 어떤 것을 선택할 것인가?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>         
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_264/13245805774065e9Mn_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>에이 아이</h2>
+                    개봉: 2001.08.10 
+                    감독: 스티븐 스필버그
+                    배우: 할리 조엘 오스먼트, 주드 로 등
+                    <p>
+                    인간은 그들과 가장 닮은 것을 창조해 냈다. 그러나... 
+                    큐브릭의 감성과 스필버그의 환타지가 만든 21세기 최고의 SF 휴먼메시지
+                    소년은 사랑이라 말한다. 그러나 인간들은 아니라고 한다. 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20210908_94/1631068988562Ij4FM_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>그래비티</h2>
+                    개봉: 2013.10.17 
+                    감독: 알폰소 쿠아론
+                    배우: 산드라 블록, 조지 클루니 등
+                    <p> 
+                    허블 우주망원경을 수리하기 위해 우주를 탐사하던 라이언 스톤 박사는
+                    폭파된 인공위성의 잔해와 부딪히면서 소리도 산소도 없는 우주 한 가운데에 홀로 남겨지는데…
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

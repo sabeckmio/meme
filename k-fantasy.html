@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a class="checked_m" href="korean.html">한국 영화</a></li>
+            <li><a href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="k-romance.html">#로맨스</a></li>
+          <li><a href="k-thriller.html">#스릴러</a></li>
+          <li><a class="checked-g" href="korean.html">#판타지</a></li>
+          <li><a href="k-horror.html">#공포</a></li>
+          <li><a href="k-sf.html">#SF</a></li>
+          <li><a href="k-animation.html">#애니메이션</a></li>
+          <li><a href="k-comedy.html">#코미디</a></li>
+          <li><a href="k-action.html">#액션</a></li>
+        </ul>
+      </div>
+
+
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="판타지_전우치_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_249/1324598282916rToPJ_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>전우치</h2>
+                    개봉: 2009.12.23
+                    감독: 최동훈
+                    배우: 강동원, 김윤석 등
+                    <p> 
+                    최초의 한국형 히어로무비
+                    전대미문의 영웅, 천방지축 악동 도사가 온다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20220708_75/16572722362230AyHS_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>외계+인 1부</h2>
+                    개봉: 2022.07.20
+                    감독: 최동훈
+                    배우: 류준열, 김우빈 등
+                    <p>
+                    “아주 오래전부터 외계인은 그들의 죄수를 인간의 몸에 가두어 왔다”
+                     시간의 문이 열리고 모든 것이 바뀌기 시작했다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_39/1324570929423jGaQ1_JPEG/movie_image.jpg?type=m203_290_2">               
+                  <figcaption>
+                    <h2>괴물</h2>
+                    개봉: 2006.07.27
+                    감독: 봉준호
+                    배우: 송강호, 변희봉 등
+                    <p>
+                    한강, 가족, 그리고... (괴물)
+                    가족의 사투가 시작된다
+                    한강에 괴물이 나타났다 
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20201230_128/1609305001387CUHXK_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>신과함께-인과 연</h2>
+                    개봉: 2018.08.01
+                    감독: 김용화
+                    배우: 하정우, 주지훈 등
+                    <p>
+                    이승과 저승, 현재와 과거를 오가는 천 년의 비밀이 밝혀진다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20201230_252/1609304926719vwxpF_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>신과함께-죄와 벌</h2>
+                    개봉: 2017.12.20
+                    감독: 김용화
+                    배우: 하정우, 차태현 등
+                    <p>
+                    누구나 가지만 아무도 본 적 없는 곳,
+                    새로운 세계의 문이 열린다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>  
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20181204_172/1543891228332kV3d1_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>내 안의 그놈</h2>
+                    개봉: 2019.01.09
+                    감독: 강효진
+                    배우: 진영, 박성웅 등
+                    <p>
+                    나 너니? 너 나니??
+                    제대로 바뀐 아재와 고딩, 웃음 대환장 파티!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_172/1324595889324u9ooU_JPEG/movie_image.jpg?type=m203_290_2">
+                  <figcaption>
+                    <h2>천국의 우편배달부</h2>
+                    개봉: 2009.11.11
+                    감독: 이형민
+                    배우: 김재중, 한효주 등
+                    <p>
+                    14일 동안만 사랑을 전하는... (천국의 우편배달부)
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20161124_88/1479951959050RqcvW_JPEG/movie_image.jpg?type=m203_290_2">
+                  <figcaption>
+                    <h2>당신, 거기 있어줄래요</h2>
+                    개봉: 2016.12.14
+                    감독: 홍지영
+                    배우: 김윤석, 변요한 등
+                    <p> 
+                    인생을 뒤바꾼 기적 같은 10번의 기회
+                    “넌 30년 전의 나고, 난 30년 후의 너야”
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>        
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111222_82/13245604071214lX4Y_JPEG/movie_image.jpg?type=m203_290_2">
+                  <figcaption>
+                    <h2>헨젤과 그레텔</h2>
+                    개봉: 2007.12.27
+                    감독: 임필성
+                    배우: 천정명, 은원재 등
+                    <p>
+                    잔혹동화
+                    동화는 아직 끝나지 않았다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111222_156/1324529006470bBotp_JPEG/movie_image.jpg?type=m203_290_2">
+                  <figcaption>
+                    <h2>시월애</h2>
+                    개봉: 2000.09.09
+                    감독: 이현성
+                    배우: 이정재, 전지현 등
+                    <p> 
+                    이 사랑이 떠나지 않게 해주세요 사랑이었다는 걸 너무 늦게 알았습니다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>

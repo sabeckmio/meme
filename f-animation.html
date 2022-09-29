@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>영화추천</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header_pop">
+  <!-- 상단 팝업 -->
+    <input id="check-btn" type="checkbox">
+      <label for="check-btn">⨉</label>
+      <ul class="promo">
+        <li><img src="광고.jpg" width="100%" height="120px"></img></li>
+      </ul>
+  </div>
+  
+  <div class="all_without_header">
+    <div class="wrap_header">
+      <header class="header">
+        <div class="div_Top">
+
+          <!-- 상단 로고 -->
+          <nav class="header_logo">
+            <a href="index.html"><img src="로고.png" height="90px"></a>
+          </nav>  
+
+          <div class="search">
+            <input type="text" placeholder="영화 검색">
+            <button>검색</button>
+          </div>
+        </div>
+
+        <!-- 상단 메뉴바 -->
+        <nav class="topMenu">
+          <hr class="menuhr">
+          <ul>
+            <li><a href="korean.html">한국 영화</a></li>
+            <li><a class="checked_m"href="foreign.html">외국 영화</a></li>
+            <li><a href="director.html">감독 소개</a></li>
+            <li><a href="today's.html">오늘의 영화</a></li>
+          </ul>
+          <hr>
+        </nav>
+      </header>
+    </div>
+    
+    <div class="all">
+      <div class="genre">
+        <ul>
+          <li><a href="f-romance">#로맨스</a></li>
+          <li><a href="f-thriller.html">#스릴러</a></li>
+          <li><a href="f-fantasy.html">#판타지</a></li>
+          <li><a href="f-horror.html">#공포</a></li>
+          <li><a href="f-sf.html">#SF</a></li>
+          <li><a class="checked-g" href="foreign.html">#애니메이션</a></li>
+          <li><a href="f-comedy.html">#코미디</a></li>
+          <li><a href="f-action.html">#액션</a></li>
+        </ul>
+        </div>
+     
+      <div class="poster">
+        <div id="l_wrap"> <!-- id를 이용해 전체를 묶음... -->
+          <article>
+            <figure>
+              <div class="information">
+                <a href="애니_겨울왕국_상세.html">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170418_82/1492496178995pHxdA_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption> 
+                    <h2>겨울왕국</h2>
+                    개봉: 2014.01.16
+                    감독: 크리스 벅, 제니퍼 리
+                    배우: 크리스틴 벨, 이디나 멘젤 등
+                    <p> 
+                      얼어붙은 세상을 녹일 자매가 온다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+               <!--   artcle하나로 포스터 하나를 묶음.이게 figure묶음이야.  class로 information효과줌.대면 커지고 포스터 까매지면서 투명도올라가는.... -->
+          
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20191121_221/1574298335357mqgLk_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>겨울왕국 2</h2>
+                    개봉: 2019.11.21
+                    감독: 크리스 벅, 제니퍼 리
+                    배우: 크리스틴 벨, 이디나 멘젤 등
+                    <p>
+                    내 마법의 힘은 어디서 왔을까?
+                    나를 부르는 저 목소리는 누구지?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20201113_247/1605253805661dLnPR_JPEG/movie_image.jpg?type=m203_290_2">
+                  <figcaption>
+                    <h2>클라우스</h2>
+                    개봉: 2019.11.15
+                    감독: 서지오 파블로스, 카를로스 마르티네즈 로페즈
+                    배우: 제이슨 슈왈츠먼, J.K. 시몬스 등
+                    <p>
+                      편지 6천 통을 배달하라고요? 
+                      소통은커녕 싸움만 일삼는 마을에서요? 
+                      불가능해 보이는 임무에 좌절한 우체부. 
+                      그냥 포기하려던 차, 장난감 장인을 만나 아이디어가 떠오른다. 아이들에게 장난감을 줄 테니 편지를 쓰라고 하는 거야!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20140116_107/1389851841994fbbg4_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>극장판 명탐정 코난:탐정들의 진혼가</h2>
+                    개봉: 2014.02.13
+                    감독: 야마모토 야스이치로
+                    배우: 타카야마 미나미, 야마자키 와카나 등
+                    <p>
+                    TAKA3-8, 밤의 카페테라스, 그리고 You cry
+                     코난과 탐정들 그리고 괴도 키드는 과연 수수께끼를 풀고 사상 최악의 위기에서 벗어날 수 있을 것인가!?
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111222_250/1324545484806T0DN9_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>월-E</h2>
+                    개봉: 2008.08.06
+                    감독: 앤드류 스탠튼
+                    배우: 벤 버트, 엘리사 나이트 등
+                    <p>
+                    예측불허! 
+                    차세대 영웅, 
+                    그가 지구 구하기에 나섰다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>  
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20150113_96/1421113909808LPjqA_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>     
+                    <h2>센과 치히로의 행방불명</h2>
+                    개봉: 2002.06.28
+                    감독: 미냐자키 하야오
+                    배우: 히이라기 루미, 이리노 미유 등
+                    <p>
+                    금지된 세계의 문이 열렸다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20111223_166/1324619308419RAp5L_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>토이 스토리 3</h2>
+                    개봉: 2010.08.05
+                    감독: 리 언크리치
+                    배우: 톰 행크스, 팀 알렌 등
+                    <p>
+                    전세계가 감동한 가장 위대한 탈출
+                    이별은 없어!
+                    우리는 반드시 함께 돌아가야 해!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20160217_153/1455686083975zjajH_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>주토피아</h2>
+                    개봉: 2016.02.17
+                    감독: 바이론 하워드, 리치 무어
+                    배우: 지니퍼 굿원, 제이슨 베이트먼 등
+                    <p> 
+                    누구나 살고 싶은 도시 1위, 주토피아
+                    연쇄 실종 사건 발생!
+                    스릴 넘치는 추격전의 신세계가 열린다!
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>       
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170418_64/1492495808221lgtrR_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>알라딘</h2>
+                    개봉: 1993.07.03
+                    감독: 존 머스커, 론 클레멘츠
+                    배우: 스콧 와인거, 로빈 윌리엄스 등
+                    <p>
+                    오늘, 당신의 꿈이 이루어집니다!
+                    함께 가요! 사랑의 양탄자를 타고 꿈과 모험이 있는 환상의 세계로
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+
+          <article>
+            <figure>
+              <div class="information">
+                <a href="#">
+                  <img class="myimage_l" src="https://movie-phinf.pstatic.net/20170418_162/1492497182954jDK7m_JPEG/movie_image.jpg?type=m203_290_2"> 
+                  <figcaption>
+                    <h2>라푼젤</h2>
+                    개봉: 2011.02.10
+                    감독: 네이슨 그레노, 바이론 하워드
+                    배우: 맨디 무어, 제커리 레비 등
+                    <p> 
+                    누구도 상상못한 위대한 가출(?)이 시작된다
+                    </p>
+                  </figcaption>
+                </a>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <a class="move_to_top" href="#"><img src="http://drive.google.com/uc?export=view&id=1sZO-YC83nDlk23GyD8VUnRLlAnRT1-ii"></a>
+
+  <section class="footer">
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div class="social">
+      <a href="#"><img class="instagram" src="http://drive.google.com/uc?export=view&id=1ILOnnfH1hR2NxzQJ7FcaRYhaiB5FM8gi" width="24px"></a>
+      <a href="#"><img class="twitter" src="http://drive.google.com/uc?export=view&id=1UXrbMmo2Avfzm0HONlZtjw_BEbEu1-x4" width="24px"></a>
+      <a href="#"><img class="facebook" src="http://drive.google.com/uc?export=view&id=11JK647USdgEaGV6xiJyBVQm-akFBfw2U"width="24px"></a>
+    </div>
+
+    <p class="Team">
+      (01797)서울특별시 노원구 화랑로 621<br>
+      서울여자대학교 GURU1 4팀 BODA<br>
+      소프트웨어융합학과 2022111357 강리나 | 디지털미디어학과 2021111297 조하영<br>
+      디지털미디어학과 2020111302 진민영 | 디지털미디어학과 2020111710 한혜빈<br>
+    </p>
+    <p class="copyright">&copy; Copyright(c) SWU All rights reserved.</p>
+  </section>
+</body>
+</html>
